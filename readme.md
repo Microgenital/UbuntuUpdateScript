@@ -1,23 +1,24 @@
-# 🛠 Ubuntu Update Script
+# 🛠 Linux Update Script
+
 Ein robustes, interaktives Bash-Skript für **sichere, vollständige und dokumentierte Systemupdates** unter Debian/Ubuntu (APT) mit optionaler Flatpak-Unterstützung.
 
 ---
 
 ## 📋 Funktionen
 
-- **Sicheres Lock-Handling**
+- **Sicheres Lock-Handling**  
   Wartet auf freie `apt`-/`dpkg`-Locks, statt sie zu löschen.
-- **Vollständige Updates**
+- **Vollständige Updates**  
   Führt `update`, `upgrade`, `dist-upgrade`, `autoremove`, `autoclean` aus.
-- **Kernel-Update-Erkennung**
+- **Kernel-Update-Erkennung**  
   Erkennt Kernel-Updates und fragt nur dann nach einem Neustart.
-- **Logging**
+- **Logging**  
   Speichert alle Ausgaben in `/var/log/system-update.log` (anpassbar).
-- **Sicherheitsprüfungen vor dem Start**
+- **Sicherheitsprüfungen vor dem Start**  
   Root-Check, Internetverbindung, freier Speicherplatz.
-- **Backups**
-  - Liste aller installierten Pakete
-  - Liste der manuell installierten Pakete
+- **Backups**  
+  - Liste aller installierten Pakete  
+  - Liste der manuell installierten Pakete  
   - Optional: Backup von `/etc` als `.tar.gz`
 - **Nur Sicherheitsupdates** (optional)
 - **Dry-Run-Modus**: Zeigt Updates, ohne Änderungen durchzuführen.
@@ -126,12 +127,19 @@ Kernel-Update erkannt. Jetzt neu starten? [y/N]
 
 ## 📝 Lizenz
 
-Dieses Skript ist unter der **MIT-Lizenz** veröffentlicht – frei nutzbar, veränderbar und verbreitbar.
+Dieses Skript ist unter der **MIT-Lizenz** veröffentlicht – frei nutzbar, veränderbar und verbreitbar.  
 Siehe [LICENSE](LICENSE) für Details.
+
+---
+
+## 🤖 KI-Hinweis
+
+Dieses Skript wurde mit Unterstützung einer **künstlichen Intelligenz** (OpenAI GPT-5) erstellt und optimiert.  
+Der Code und die Dokumentation wurden teils automatisiert generiert, anschließend manuell geprüft und angepasst.
 
 ---
 
 ## 🤝 Beiträge
 
-Pull Requests und Issues sind willkommen!
+Pull Requests und Issues sind willkommen!  
 Falls du das Skript verbesserst oder für andere Distributionen anpasst, teile es gerne im Repository.

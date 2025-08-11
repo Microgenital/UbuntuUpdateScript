@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 
 # ==========================
-#   System Update Deluxe
+#   Linux-Update-Script
 # ==========================
 # Features:
 # - Sicheres Warten auf APT/DPKG-Locks (kein rm -rf)
